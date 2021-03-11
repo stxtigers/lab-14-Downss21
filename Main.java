@@ -107,5 +107,10 @@ public class Main {
 			}
 		}
 	}
+	
+	public static String censor(String s, char c)
+	{
+		return s.replace(c, '*');
+	}
 
 }
